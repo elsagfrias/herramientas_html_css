@@ -109,7 +109,7 @@ header ul a {
 
 .index-background {
     box-sizing: border-box;
-    background-image: url("../img/pexels-markus-winkler-4840854.jpg");
+    background-image: url("/pexels-markus-winkler-4840854.88c46777.jpg");
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -142,6 +142,8 @@ header ul a {
 }
 
 .index-container figure {
+    height: -webkit-min-content;
+    height: -moz-min-content;
     height: min-content;
     border-radius: 5px;
     box-shadow: 0 0 5px 2px #E8E8E8;
@@ -247,7 +249,8 @@ header ul a {
 .receta img {
     height: 230px;
     width: 200px; 
-    object-fit: cover;
+    -o-object-fit: cover; 
+       object-fit: cover;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     float: left;
@@ -256,7 +259,8 @@ header ul a {
 .receta img:hover {
     height: 230px;
     width: 200px; 
-    object-fit: cover;
+    -o-object-fit: cover; 
+       object-fit: cover;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     float: left;
@@ -451,8 +455,6 @@ input[type=submit]:hover {
 }
 
 textarea {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
 
     width: 100%;
@@ -472,7 +474,8 @@ textarea {
     .receta img {
         height: 250px;
         width: 200px; 
-        object-fit: cover;
+        -o-object-fit: cover; 
+           object-fit: cover;
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
         float: left;
@@ -481,7 +484,8 @@ textarea {
     .receta img:hover {
         height: 250px;
         width: 200px; 
-        object-fit: cover;
+        -o-object-fit: cover; 
+           object-fit: cover;
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
         float: left;
@@ -639,7 +643,8 @@ textarea {
     .receta img {
         height: 230px;
         width: 200px; 
-        object-fit: cover;
+        -o-object-fit: cover; 
+           object-fit: cover;
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
         float: left;
@@ -648,7 +653,8 @@ textarea {
     .receta img:hover {
         height: 230px;
         width: 200px; 
-        object-fit: cover;
+        -o-object-fit: cover; 
+           object-fit: cover;
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
         float: left;
@@ -672,7 +678,8 @@ textarea {
     .receta img {
         height: 300px;
         width: 200px; 
-        object-fit: cover;
+        -o-object-fit: cover; 
+           object-fit: cover;
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
         float: left;
@@ -681,7 +688,8 @@ textarea {
     .receta img:hover {
         height: 300px;
         width: 200px; 
-        object-fit: cover;
+        -o-object-fit: cover; 
+           object-fit: cover;
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
         float: left;
@@ -733,7 +741,8 @@ textarea {
     .receta img {
         height: 150px;
         width: 150px; 
-        object-fit: cover;
+        -o-object-fit: cover; 
+           object-fit: cover;
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
         float: left;
@@ -742,7 +751,8 @@ textarea {
     .receta img:hover {
         height: 150px;
         width: 150px; 
-        object-fit: cover;
+        -o-object-fit: cover; 
+           object-fit: cover;
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
         float: left;
@@ -787,3 +797,6 @@ textarea {
     }
       
   }
+
+
+/*# sourceMappingURL=/style.78032849.css.map */

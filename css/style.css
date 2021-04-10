@@ -89,7 +89,6 @@ header {
 header ul {
     display: inline-flex;
     list-style-type: none;
-    margin-left: 150px;
     margin-top: 40px;
 }
 

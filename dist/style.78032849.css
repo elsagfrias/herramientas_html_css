@@ -1,0 +1,801 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Jost:ital,wght@0,400;0,700;1,400;1,700&family=Nanum+Pen+Script&display=swap');
+
+body { 
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5em;
+    color: #1f1f1f; 
+    background: #FFFFFF; 
+    font-family: 'Abel';
+}
+
+.no-index-main {
+    padding: 20px 15vW;
+}
+
+.main {
+    padding: 20px 6vW;
+}
+
+footer {
+    background-color: #1f1f1f;
+    color: #FFFFFF;
+
+}
+
+footer ul {
+    list-style: none;
+    padding-top: 20px;
+    text-align: right;
+    margin-right: 50px;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-link {
+    font-family: 'Nanum Pen Script';
+    font-size: 48px;
+    margin-left: 50px;
+}
+
+.footer-div {
+    margin-top: 50px;
+}
+
+.author-name {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+    font-family: 'Abel';
+}
+
+.author-name p {
+    font-family: 'Abel';
+    font-size: 18px;
+    margin: 0;
+}
+
+.footer-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+a {
+    color: #1f1f1f;
+}
+
+/* INDEX */ 
+
+header {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+}
+
+.header-figcaption a {
+    font-family: 'Nanum Pen Script';
+    font-size: 48px;
+    color: #1f1f1f;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.header-figcaption {
+    margin-top: 20px;
+}
+
+header ul {
+    display: inline-flex;
+    list-style-type: none;
+    margin-top: 40px;
+}
+
+header ul a {
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    width: 10%;
+}
+
+.index-background {
+    box-sizing: border-box;
+    background-image: url("/pexels-markus-winkler-4840854.88c46777.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 0;
+}
+
+.index-background {
+	padding: 20px 15vW;
+    position: relative;
+    height: 400px;
+}
+
+.index-background div {
+    text-align: center;
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+}
+
+.index-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px 15vW;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.index-container figure {
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px #E8E8E8;
+}
+
+.index-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.index-img:hover {
+    width: 100%;
+    height: 45%;
+    border-radius: 5px 5px 0 0;
+    opacity: 50%;
+    filter: saturate(0);
+}
+
+.index-figcaption {
+    padding: 15px;
+    font-size: 18px;
+}
+
+/* GASTRONOMÍA COREANA */
+
+.gastronomia-img {
+    border-radius: 50%;
+    shape-outside: circle(50%);
+    float: right;
+    padding: 10px;
+    width: 30%;
+}
+
+.gastronomia-img:hover {
+    border-radius: 50%;
+    shape-outside: circle(50%);
+    float: right;
+    padding: 10px;
+    width: 30%;
+    opacity: 100%;
+    filter: saturate(1);
+}
+
+/* RESTAURANTES */
+
+.restaurantes-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.restaurantes-list {
+    display: inline-flex;
+    text-align: center;
+}
+
+.restaurantes-div {
+    text-align: center;
+}
+
+.restaurantes-img {
+    width: 70%;
+    border-radius: 5px;
+}
+
+.restaurantes-filter {
+    padding-left: 0;
+}
+
+.restaurantes-list {
+    list-style: none;
+}
+
+.restaurantes-list a {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    color: #1f1f1f;;
+    cursor: pointer;
+    font-family: "Abel";
+    font-size: 18px;
+    margin: 5px;
+    display: block;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 120px;
+}
+
+.restaurantes-list a:hover {
+    background-color: #1f1f1f;
+    color: #FFFFFF;
+} 
+
+
+/* RECETAS */
+
+.recetas-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.receta img {
+    height: 230px;
+    width: 200px; 
+    -o-object-fit: cover; 
+       object-fit: cover;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float: left;
+}
+
+.receta img:hover {
+    height: 230px;
+    width: 200px; 
+    -o-object-fit: cover; 
+       object-fit: cover;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float: left;
+    opacity: 50%;
+    filter: saturate(0);
+}
+
+.receta-container {
+    display: grid; 
+    grid-template-columns: 0.5fr 1fr;
+}
+
+.receta-container ul {
+    list-style: none;
+    padding: 0;
+    margin-right: 20px;
+}
+
+.receta figcaption {
+    margin-left: 230px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.receta p {
+    padding: 0;
+    margin-bottom: 0;
+    color: grey;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.button-link {
+    background-color: black;
+    color:  #FFFFFF;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    float: right;
+}
+
+.filterDiv {
+    box-shadow: 0 0 5px 2px #E8E8E8;
+    height: 230px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: none; 
+}
+
+.show {
+    display: block;
+    width: 950px;
+    border-radius: 5px;
+}
+
+.receta {
+      margin-left: 0;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-family: "Abel";
+    font-size: 18px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    width: 110px;
+    text-align: center;
+  }
+
+  .btn:hover {
+    background-color: #1f1f1f;
+    color: #FFFFFF;
+}
+
+.filterDiv {
+    width: auto;
+}
+
+#myBtnContainer {
+    text-align: center;
+}
+
+
+/* KIMCHI */
+
+.kimchi-img {
+    width: 40%;
+    float: right;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.detalle-video-container { 
+    position: relative; 
+    width: 100%;
+    height: 0; 
+    overflow: hidden; 
+    box-sizing: border-box;
+    padding-bottom: 56.25%; 
+    padding-top: 30px; 
+}
+
+.detalle-video-container iframe, .detalle-video-container object, .detalle-video-container embed { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    border: none;
+}
+
+/* SOBRE NOSOTROS */ 
+
+.about-img {
+    border-radius: 50%;
+    shape-outside: circle(50%);
+    float: left;
+    padding: 10px;
+    width: 20%;
+}
+
+.about-h2 {
+    margin-top: 0;
+}
+
+.about-form-container {
+    margin-top: 50px; 
+    margin-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px #E8E8E8;
+    padding: 30px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+input {
+    font-family: "Abel";
+    display: block;
+    margin-top: 7px;
+}
+
+.check {
+    display: flex;
+}
+
+.about-p {
+    font-size: 12px;
+    color: grey;
+}
+
+input[type=email] {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+input[type=text] {
+    margin-top: 0; 
+    font-size: 18px;
+}
+
+textarea {
+    font-family: 'Abel';
+    font-size: 18px;
+}
+
+input[type=submit] {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-family: "Abel";
+    font-size: 18px;
+    display: block;
+    border-radius: 5px;
+    width: 110px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: #1f1f1f;
+    color: #FFFFFF;
+}
+
+textarea {
+    box-sizing: border-box;
+
+    width: 100%;
+}
+
+/* RESPONSIVE DESIGN */ 
+
+@media (max-width: 1190px) {
+
+    .filterDiv {
+        box-shadow: 0 0 5px 2px #E8E8E8;
+        height: 250px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    
+    .receta img {
+        height: 250px;
+        width: 200px; 
+        -o-object-fit: cover; 
+           object-fit: cover;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        float: left;
+    }
+    
+    .receta img:hover {
+        height: 250px;
+        width: 200px; 
+        -o-object-fit: cover; 
+           object-fit: cover;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        float: left;
+        opacity: 50%;
+        filter: saturate(0);
+    }
+
+    
+
+}
+
+@media (max-width: 1000px) {
+
+    main {     
+        padding: 0;
+    }
+    
+    body {
+        line-height: 1.5em;  
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    h1 {
+        margin-top: 0;
+        line-height: 1.5em;
+    }
+    
+    /* RESPONSIVE DESIGN: HEADER */ 
+    
+    header {     
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    header div {
+        margin: 0 auto;
+    }
+
+    .header-menu ul {
+        margin: 0;
+    }
+
+    .header-menu li {
+        font-size: 1rem;
+    }
+
+    #logo {
+        margin: 50px 20px 50px 20px;
+        padding: 0;
+    }
+    
+    nav {
+        margin-top: -30px;
+    }
+    
+    nav li { 
+        display: list-item;
+        list-style: none;
+        margin-top: -10px;
+        padding: 0;
+        font-size: 1rem;
+    }
+    
+    .logo { 
+        margin-left: 38%;
+        margin-top: 100px;
+        margin-bottom: 15px;
+    }
+    
+    .logo img {
+        width: 12%;
+    }
+    
+    figcaption a {
+        margin-left: 10px;
+        font-size: 2rem;
+    }
+
+    header ul {
+        margin-right: 0;
+        padding: 0;
+    }
+
+    header li {
+        margin-right: 0;
+        padding: 0;
+    }
+    
+    .header-menu {
+        margin-bottom: 40px;
+        padding: 0;
+    }
+
+    .header-menu ul li {
+        margin-top: 2px;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    /* RESPONSIVE DESIGN: FOOTER */ 
+
+    footer ul {
+        margin-top: 50px;
+        margin-bottom: 0; 
+    }
+
+    footer ul li {
+        padding-top: 5px;
+    }
+    
+    /* RESPONSIVE DESIGN: INDEX */ 
+    
+    .index-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px 15vW;
+        margin-top: 0; 
+        padding-top: 0;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+
+    .logo img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .index-img {
+        max-width:100%;
+        height: auto;
+    }
+
+    figcaption a {
+        font-size: 1rem;  
+    }
+
+    .index-container figcaption {
+        font-size: 1rem; 
+    }
+
+
+    /* RESPONSIVE DESIGN: RECETAS */ 
+
+    .receta figcaption {
+        margin-left: 230px;
+        padding-right: 0;
+    }
+
+    .receta img {
+        height: 230px;
+        width: 200px; 
+        -o-object-fit: cover; 
+           object-fit: cover;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        float: left;
+    }
+    
+    .receta img:hover {
+        height: 230px;
+        width: 200px; 
+        -o-object-fit: cover; 
+           object-fit: cover;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        float: left;
+        opacity: 50%;
+        filter: saturate(0);
+    }
+
+    /* RESPONSIVE DESIGN: KIMCHI */
+
+    .receta-container {
+        display: grid; 
+        grid-template-columns: 1fr;
+    }
+
+} 
+
+@media (max-width: 910px) {
+    .filterDiv {
+        height: 300px;
+    }
+    .receta img {
+        height: 300px;
+        width: 200px; 
+        -o-object-fit: cover; 
+           object-fit: cover;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        float: left;
+    }
+    
+    .receta img:hover {
+        height: 300px;
+        width: 200px; 
+        -o-object-fit: cover; 
+           object-fit: cover;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        float: left;
+        opacity: 50%;
+        filter: saturate(0);
+    }
+}
+
+@media (max-width: 810px) {
+    .footer-link {
+        font-size: 36px;
+        margin-left: 0;
+    }
+
+    .footer-nav {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .footer-div {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .footer-menu {
+        margin: 0;
+        padding-left: 0;
+        margin-bottom: 20px;
+    }
+
+    footer ul {
+        list-style: none;
+        padding-top: 20px;
+        text-align: center;
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 740px) {
+    .filterDiv {
+        height: 150px;
+    }
+
+    figcaption p {
+        display: none;
+    }
+
+    .receta img {
+        height: 150px;
+        width: 150px; 
+        -o-object-fit: cover; 
+           object-fit: cover;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        float: left;
+    }
+    
+    .receta img:hover {
+        height: 150px;
+        width: 150px; 
+        -o-object-fit: cover; 
+           object-fit: cover;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        float: left;
+        opacity: 50%;
+        filter: saturate(0);
+    }
+
+    .receta figcaption {
+        margin-left: 160px;
+    }
+
+    .button-link {
+        margin-top: 20px;
+    }
+    
+}
+
+@media (max-width: 510px) {
+  .logo {
+      display: block;
+      text-align: center;
+  }
+
+  .logo a {
+      padding-left: 0;
+  }
+
+  .header-menu ul {
+      display: block;
+      text-align: center;
+  }
+
+  .header-menu ul li {
+    margin: 0;
+}
+    
+}
+
+@media (max-width: 350px) {
+    .index-background {
+        height: 500px;
+    }
+      
+  }
+
+
+/*# sourceMappingURL=/style.78032849.css.map */

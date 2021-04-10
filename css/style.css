@@ -158,15 +158,8 @@ header ul a {
 }
 
 .index-figcaption {
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 20px;
-}
-
-figure p {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 15px;
+    font-size: 18px;
 }
 
 /* GASTRONOMÍA COREANA */
@@ -623,12 +616,16 @@ textarea {
         height: auto;
     }
 
-
-    /* RESPONSIVE DESIGN: RECETAS */ 
-
     figcaption a {
         font-size: 1rem;  
     }
+
+    .index-container figcaption {
+        font-size: 1rem; 
+    }
+
+
+    /* RESPONSIVE DESIGN: RECETAS */ 
 
     .receta figcaption {
         margin-left: 230px;
@@ -779,3 +776,10 @@ textarea {
 }
     
 }
+
+@media (max-width: 350px) {
+    .index-background {
+        height: 500px;
+    }
+      
+  }

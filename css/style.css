@@ -63,6 +63,10 @@ footer a {
     grid-template-columns: 1fr 1fr;
 }
 
+a {
+    color: #1f1f1f;
+}
+
 /* INDEX */ 
 
 header {

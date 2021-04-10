@@ -1,5 +1,3 @@
-filtrar("all")
-
 function filtrar(c) {
   var x, i;
   x = document.getElementsByClassName("filterDiv");
@@ -35,3 +33,5 @@ function eliminarClase (element, name) {
   }
   element.className = arr1.join(" ");
 }
+
+filtrar("all")

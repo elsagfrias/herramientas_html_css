@@ -156,6 +156,7 @@ header ul a {
     width: 100%;
     height: 45%;
     border-radius: 5px 5px 0 0;
+    opacity: 50%;
     filter: saturate(0);
 }
 
@@ -180,6 +181,7 @@ header ul a {
     float: right;
     padding: 10px;
     width: 30%;
+    opacity: 100%;
     filter: saturate(1);
 }
 
@@ -257,6 +259,7 @@ header ul a {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     float: left;
+    opacity: 50%;
     filter: saturate(0);
 }
 
@@ -481,6 +484,7 @@ textarea {
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
         float: left;
+        opacity: 50%;
         filter: saturate(0);
     }
 
@@ -647,6 +651,7 @@ textarea {
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
         float: left;
+        opacity: 50%;
         filter: saturate(0);
     }
 
@@ -679,6 +684,7 @@ textarea {
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
         float: left;
+        opacity: 50%;
         filter: saturate(0);
     }
 }
@@ -739,6 +745,7 @@ textarea {
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
         float: left;
+        opacity: 50%;
         filter: saturate(0);
     }
 
